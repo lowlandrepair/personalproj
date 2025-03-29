@@ -1,0 +1,43 @@
+h1{
+    color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+body{
+    background: url(europe-vector-map-royalty-free-png-favpng-nbw8wGNZfyhMz8hSMv0XzCV0Q-removebg-preview.png);
+    background-color: grey;
+    
+}
+#section-1{
+    background-color: rgb(75, 75, 75);
+    height: 170px;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+}
+
+header{
+    padding: 55px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li.active{
+    background-color: blue;
+    border-radius: 100px;
+}

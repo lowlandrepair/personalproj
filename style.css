@@ -97,6 +97,7 @@ nav ul li.active{
     margin-top: 80px;
     width: 90%;
     padding-bottom: 100px;
+    
 }
 
 .service{
@@ -105,12 +106,17 @@ nav ul li.active{
     margin-right: auto;
     text-align: center;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
-
+    border-radius: 5%;
+    background-color: orange;
 }
 
 .service img{
     width: 200px;
+    padding: 20px;
+    margin:5px;
+border-radius: 15% / 20%;
 }
+
 
 #section-3{
     font-size: 24px;
@@ -118,6 +124,7 @@ nav ul li.active{
     text-transform: uppercase;
     background-color: #3f064b;
     color: white;
+    
 }
 
 #contact-form{
@@ -200,6 +207,24 @@ footer{
     text-decoration: none;
     font-size: 24px;
 }
+
+nav ul li{
+    transition: background-color 0.3s ease-in-out, border-radius 0.3s ease-in-out;
+}
+
+nav ul li:hover{
+    background-color: orange;
+    border-radius: 100px;
+}
+
+nav ul li a{
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover{
+    color: #ffffff;
+}
+
 @media only screen and (max-width: 800px) {
     header{
         flex-direction: column;
@@ -267,4 +292,5 @@ footer{
     footer ul li{
         text-align: center;
     }
+
 }

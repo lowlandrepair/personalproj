@@ -10,20 +10,20 @@
     <section id="section-1">
         <div class="container">
             <header>
-                <img src="images__1_-removebg-preview.png" alt="logo" width="100px" height="80px">
-                  <nav>
+                <img src="images__1_-removebg-preview.png" alt="logo" width="100px" height="80px" />
+                <nav>
                     <ul>
-                        <li class="active"><a href="#">Home</a></li>
+                        <li class="active"><a href="index.html">Home</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="work.html">MENU</a></li>
                         <li><a href="blog.html">Blog</a></li>
                         <li><a href="order.html">Order Now</a></li>
-                  </nav>
+                    </ul>
+                </nav>
             </header>
          <div class = "main-heading">
             <h1>Hi there! We are the cool fast food restaurant!</h1>
-            <a href="#">Do your order now!</a>
-            </a>
+            <a href="order.html">Do your order now!</a>
          </div>
         </div>
        </section>  
@@ -68,7 +68,7 @@
     <section id="section-3">
         <div class="container">
             <div class="title-box">
-                <h2> Text for your order</h2>
+                <h2> Contact Us</h2>
                 <div class="line"></div>
                 <p>10000, Prishtina, Kosovo. Tel:(383) 43-803-983 </p>
             </div>
@@ -76,14 +76,17 @@
             <div id="contact-form">
                 <form>
                     <div class="form-row">
-                    <input type="text" placeholder="Your Name">
-                    <input type="tel" placeholder="Your Number">
+                        <label for="name" class="sr-only">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required />
+                        <label for="phone" class="sr-only">Your Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Your Number" required />
                     </div>
                     <div class="form-row">
-                        <textarea name="message"  placeholder="Your Message"></textarea>
+                        <label for="message" class="sr-only">Your Message</label>
+                        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
                     </div>
                     <div class="form-row">
-                        <input type="submit" class="big-button" value="Submit">
+                        <input type="submit" class="big-button" value="Submit" />
                     </div>
                 </form>
             </div>
